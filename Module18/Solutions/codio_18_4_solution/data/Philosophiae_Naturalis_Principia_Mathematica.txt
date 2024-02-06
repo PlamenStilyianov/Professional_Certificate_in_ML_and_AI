@@ -1,0 +1,273 @@
+Philosophiae Naturalis Principia Mathematica
+
+
+					Isaacus Newtonus
+
+
+
+
+
+1687
+
+
+
+
+
+Exported from Wikisource on April 3, 2022
+
+
+
+
+
+INDEX
+
+
+Tituli pagina
+
+Auctoris præfatio ad lectorem
+
+Viri Præstantissimi
+
+Definitiones
+
+Axiomata, sive Leges Motus
+
+
+
+
+
+DE MOTU CORPORUM LIBER PRIMUS
+
+
+SECT. I. DE Methodo rationum primarum & ultima rum.
+
+SECT. II. De inventione Virium centripetarum.
+
+SECT. III. De motu corporum in Conicis sectionibus eccentri cis.
+
+SECT. IV. De inventione Orbium Elliptieorum, Parabolieorum & Hyperbolieorum ex Umbilico dato.
+
+SECT. V. De inventione Orbium ubi Umbilicus neuter datur.
+
+SECT. VI. De inventione Motuum in Orbibus datis.
+
+SECT. VII. De corporum Ascensu & Descensu rectilineo.
+
+SECT. VIII. De inventione Orbium in quibus corpora Viribus quibuscunque centripetis agitata revolvuntur.
+
+SECT. IX. De Motu corporum in Orbibus mobilibus, deque Motu Apsidum.
+
+SECT. X. De Motu corporum in Superficiebus datis, deque Funependulorum Motu reciproco.
+
+SECT. XI. De Motu corporum Viribus centripetis se mutuo pe tentium.
+
+SECT. XII. De corporum Sphærieorum Viribus attractivis.
+
+SECT. XIII. De corporum non Sphærieorum Viribus attracti vis.
+
+SECT. XIV. De Motu corporum Minimorum, quæ Veribus cen tripetis ad singulas Magni alicujus corporis partes ten dentibus agitantur.
+
+
+
+
+
+DE MOTU CORPORUM LIBER SECUNDUS.
+
+
+SECT. I. De Motu corporum quibus resistitur in ratione velocitatis.
+
+SECT. II. De motu corporum quibus resistitur in duplicata ratione velocitatum.
+
+SECT. III. De motu corporum quæ resistuntur partim in ratione velocitatis, partim in ejusdem ratione duplicata.
+
+SECT. IV. De Corporum circulari Motu in Mediis resistentibus.
+
+SECT. V. De Densitate & compressione Fluidorum, deque Hydrostatica.
+
+SECT. VI. De Motu & resistentia Corporum Funependulorum.
+
+SECT. VII. De Motu Fluidorum & resistentia Projectilium.
+
+SECT. VIII. De Motu per Fluida propagato.
+
+SECT. IX. De motu Circulari Fluidorum.
+
+
+
+
+
+DI MUNDI SYSTEMATE LIBER TERTIUS.
+
+
+
+
+
+APPENDIX
+
+
+
+
+
+The Project Gutenberg EBook of Philosophiae Naturalis Principia Mathematica, by Isaac Newton
+
+This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org
+
+Title: Philosophiae Naturalis Principia Mathematica
+
+Author: Isaac Newton
+
+Release Date: March 1, 2009 [EBook #28233]
+
+Language: Latin
+
+Character set encoding: ISO 8859 1
+
+START OF THIS PROJECT GUTENBERG EBOOK PHILOSOPHIAE NATURALIS
+
+
+
+Produced by Jonathan Ingram, Keith Edkins and the Online Distributed Proofreading Team at http://www.pgdp.net
+
+
+
+
+
+PHILOSOPHIÆ
+
+NATURALIS
+
+PRINCIPIA
+
+MATHEMATICA
+
+
+
+* * *
+
+
+
+
+
+Autore IS. NEWTON, Trin. Coll. Cantab. Soc. Matheseos
+
+Professore Lucasiano, & Societatis Regalis Sodali.
+
+
+
+* * *
+
+
+
+
+
+IMPRIMATUR.
+
+
+
+S. PEPYS, Reg. Soc. PRÆSES.
+
+Julii 5. 1686.
+
+
+
+* * *
+
+
+
+
+
+LONDINI,
+
+Jussu Societatis Regiæ ac Typis Josephi Streater. Prostat apud plures Bibliopolas. Anno MDCLXXXVII.
+
+
+
+ILLUSTRISSIMÆ
+
+SOCIETATI REGALI
+
+a Serenissimo
+
+REGE CAROLO II.
+
+AD
+
+PHILOSOPHIAM PROMOVENDAM
+
+FUNDATÆ,
+
+ET AUSPICIIS
+
+POTENTISSIMI MONARCHÆ
+
+JACOBI II.
+
+FLORENTI.
+
+Tractatum hunc humillime D.D.D.
+
+IS. NEWTON.
+
+
+
+
+
+About this digital edition
+
+
+This e-book comes from the online library Wikisource[1]. This multilingual digital library, built by volunteers, is committed to developing a free accessible collection of publications of every kind: novels, poems, magazines, letters...
+
+We distribute our books for free, starting from works not copyrighted or published under a free license. You are free to use our e-books for any purpose (including commercial exploitation), under the terms of the Creative Commons Attribution-ShareAlike 3.0 Unported[2] license or, at your choice, those of the GNU FDL[3].
+
+Wikisource is constantly looking for new members. During the realization of this book, it's possible that we made some errors. You can report them at this page[4].
+
+The following users contributed to this book:
+
+CES1596
+
+Christophorus~lawikisource
+
+Accurimbono
+
+Barbaking
+
+ShakespeareFan00
+
+Piero~lawikisource
+
+Jredmond
+
+SSilent
+
+Demetrius Talpa
+
+Lew XXI
+
+Nicole Sharp
+
+Matthead
+
+Daniele Pugliesi
+
+Svdmolen
+
+
+
+
+
+* * *
+
+
+
+↑ https://wikisource.org
+
+↑ https://www.creativecommons.org/licenses/by-sa/3.0
+
+↑ https://www.gnu.org/copyleft/fdl.html
+
+↑ https://wikisource.org/wiki/Wikisource:Scriptorium
+
+
+
+
+
