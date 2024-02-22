@@ -16,12 +16,14 @@ def add_indicators(df_stock):
     indicators = [name for name in list(TA.__dict__.keys()) if str(name).isupper()]
     # These indicators need more tuning or are broken
     broken_indicators = ['SAR', 'TMF', 'VR', 'QSTICK']
+    columns = ['open', 'high', 'low', 'close', 'volume']
+    df_fa = df_stock[columns]
     for indicator in indicators:
         if indicator not in broken_indicators:
             df = None
             # Using python's eval function to create a method from a string instead of having every method defined
             try:
-                df = eval('TA.' + indicator + '(df_stock)')
+                df = eval('TA.' + indicator + '(df_fa)')
             except:
                 print(indicator)
                 continue
