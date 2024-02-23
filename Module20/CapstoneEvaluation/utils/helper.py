@@ -122,10 +122,13 @@ def reg_model_metrics(reg_models, X_train, X_test, y_train, y_test):
         index_point = X_test.shape[0] - number_of_observations
         x_ax = X_test.index.tolist()[index_point:]
 
-        plt.figure(figsize=(16, 8))
+        vwap = X_test['vwap']
+
+        plt.figure(figsize=(25, 10))
 
         plt.plot(x_ax, y_test[index_point:], label="Actual", color='red', linewidth=2)
         plt.plot(x_ax, y_pred[index_point:], label="Predicted", color='yellow', linewidth=2)
+        plt.plot(x_ax, vwap[index_point:], label="VWAP", color='blue', linewidth=2)
 
         plt.title("JPM Close Prices: Predicted data - Actual using " + model_name)
         plt.xlabel('Years')
