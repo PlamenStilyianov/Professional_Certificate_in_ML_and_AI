@@ -15,7 +15,8 @@ news_url = config("ALPACA_DATA_URL")
 
 client = NewsClient(api_key, secret_key, url_override=news_url)
 
-classifier = pipeline('sentiment-analysis', model='distilbert-base-uncased-finetuned-sst-2-english')
+#classifier = pipeline('sentiment-analysis', model='mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis')
+classifier = pipeline('sentiment-analysis', model='j-hartmann/sentiment-roberta-large-english-3-classes')
 
 day = datetime.now().day if math.log10(datetime.now().day) >= 1 else f'0{datetime.now().day}'
 month = datetime.now().month if math.log10(datetime.now().month) >= 1 else f'0{datetime.now().month}'
