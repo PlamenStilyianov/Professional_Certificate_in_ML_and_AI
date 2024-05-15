@@ -17,7 +17,7 @@ year = datetime.now().year
 
 # Set the start time
 start_time = pd.to_datetime("2015-01-15").tz_localize('America/New_York')
-end_time = datetime.fromisoformat(f'{year}-{month}-{day}T00:00:00Z')
+end_time = datetime.fromisoformat(f'{year}-{month}-{day}')
 
 # It's generally best to explicitly provide an end time but will default to 'now' if not
 request_params = StockBarsRequest(
