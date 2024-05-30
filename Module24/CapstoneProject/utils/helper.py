@@ -156,16 +156,14 @@ def trim_df_columns(df_stocks_full):
 
 def print_permutation_importance(models, X_val, y_val, df, X):
     for model, name in models:
-        print(
-            f'Permutation importance to Close for {model[name].__class__.__name__ if name != "clf" else model.__class__.__name__}')
+        print(f'Permutation importance to Close for {model[name].__class__.__name__ if name != "clf" else model.__class__.__name__}')
         r = permutation_importance(model, X_val, y_val, n_repeats=32, random_state=0)
         for i in r.importances_mean.argsort()[::-1]:
-            # if r.importances_mean[i] - 2 * r.importances_std[i] > 0:
+            #if r.importances_mean[i] - 2 * r.importances_std[i] > 0:
             print(f"{X.columns[i]:<{df.shape[1]}}"
                   f"{r.importances_mean[i]:.3f}"
                   f" +/- {r.importances_std[i]:.3f}")
         print(' ')
-
 
 # Create an ensamble method to select best fit model
 def reg_model_metrics(reg_models, X_train, X_test, y_train, y_test):
@@ -220,7 +218,8 @@ def reg_model_metrics(reg_models, X_train, X_test, y_train, y_test):
 
         number_of_observations = 60
         index_point = X_test.shape[0] - number_of_observations
-        x_ax = sorted(X_test.index.tolist()[index_point:])
+        x_ax = X_test.index.tolist()[index_point:]
+
         #    vwap = X_test['vwap']
 
         plt.figure(figsize=(25, 10))
@@ -232,7 +231,6 @@ def reg_model_metrics(reg_models, X_train, X_test, y_train, y_test):
         plt.title("JPM Close Prices: Predicted data - Actual using " + model_name)
         plt.xlabel('Years')
         plt.ylabel('Price')
-        # plt.xticks(x_ax)
         start = min(x_ax)
         end = max(x_ax)
         t = pd.date_range(start=start, end=end, freq='M')
@@ -282,4 +280,4 @@ def get_complexity(X_train, X_test, y_train, y_test, complex_num):
     print(f'The best value of the R-sq of the model, as a good fit is: {best_rsq2: .4f} out of {r_squared}')
     return best_complexity
 
-# %%
+#%%
