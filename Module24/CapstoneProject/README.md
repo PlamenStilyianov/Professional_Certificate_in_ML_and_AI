@@ -36,7 +36,7 @@ The LSTM model is then trained to predict the target variable (e.g., the future 
 We will explore how RNNs can be applied to univariate and multivariate time series to predict asset prices using market or fundamental data.
 More specifically, we'll first demonstrate how to prepare time-series data to predict the next value for univariate time series with a single LSTM layer to predict stock index values, Next, we will demonstrate how to model multivariate time series using an RNN.
 
-*Univariate Time Series Forecasting with LSTMs in Keras*
+**Univariate Time Series Forecasting with LSTMs in Keras**
 
 We obtain historical data for 2016-2024 from Yahoo for ^GSPC symbol of SP500 index
 <img src="images/sp500_data.png">
@@ -54,10 +54,9 @@ best epoch, and shows that the loss is 1.0398 percent:
 
 <img src="images/rnn_sp500_regression_black.png">
 The above four plots illustrate the forecast performance based on
-the rescaled predictions that track the 2019 out-of-sample S&P 500 data
-with a test information coefficient (IC) of 1.0398:
+the rescaled predictions that track the 2019 out-of-sample S&P 500 data with a test information coefficient (IC) of 1.0398.
 
-*Multivariate Time Series Forecasting with LSTMs in Keras*
+**Multivariate Time Series Forecasting with LSTMs in Keras**
 
 Multivariate time-series models are designed to capture the dynamic of
 multiple time series simultaneously and leverage dependencies across these
@@ -73,10 +72,9 @@ However, we want rolling, not non-overlapping lagged values. The create_multivar
 We will use window_size of 24 months and obtain the desired inputs for our RNN model. Finally, we split our data into a train and a test set, using the last 24 months to test the out-of-sample performance.
 
 <img src="images/multi_rnn_results.png">
-The above plot highlights training and validation errors, and the out-of-sample
-predictions for both series.
+The above plot highlights training and validation errors, and the out-of-sample predictions for both series.
 
-*Forcasting Next day Price for the Stock*
+**Forcasting Next day Price for the Stock**
 
 We have defined the LSTM with 32 neurons in the first hidden layer, 16 neurons in the second hidden layer and 1 neuron in the output layer for predicting pollution. The input shape will be 1 time step with 2 features.
 We have used the Mean Squared Error (MSE) loss function and the efficient Adam version of stochastic gradient descent.
